@@ -1,0 +1,47 @@
+
+
+.BannerSection div{
+	display: flex;
+	flex-direction: column;
+}
+
+.BannerSection span {
+	margin-bottom: 0.5625rem;
+}
+
+.BannerSection h1, 
+.BannerSection p {
+	margin-bottom: 2.3125rem;
+}
+
+
+
+.BannerSection button {
+	padding: 0;
+	max-width: 8.125rem;
+	margin-bottom: 3.9375rem;
+}
+
+.BannerSection img {
+	max-width: 310px;
+	align-self: center;
+}
+
+
+@media ( min-width: 720px){
+	
+	.BannerSection> div {
+		flex-direction: row;
+		gap: 50px;
+	}
+
+	.containerText{
+		width: 50%;
+	}
+	.BannerSection img {
+		max-width: 438px;
+		width: 50%;
+		align-self: center;
+	}
+	
+}
