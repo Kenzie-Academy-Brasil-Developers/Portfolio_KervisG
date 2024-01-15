@@ -1,5 +1,5 @@
 import { projects } from "../../../data/projects";
-import { ProjectCard } from"../ProjectCard"
+    import { ProjectCard } from"../ProjecctCard"
 import styles from "./style.module.css"
 const ProjecSection = () => {
     return (
@@ -7,7 +7,7 @@ const ProjecSection = () => {
 
             <div className="container">
                 <h2 className="title2">Projetos</h2>
-                <ul>
+                <ul> 
                     {projects.map(project =>
                         <ProjectCard key={project.id} project={project} />
 
